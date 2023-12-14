@@ -11,14 +11,7 @@ class Student
     public int age;
     private int id;
 
-    public int Id()
-    { 
-        return id;
-    }
-    public void Id(int iid)
-    {
-        id = iid;
-    }
+    
 
 
 }
