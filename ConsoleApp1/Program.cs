@@ -20,19 +20,5 @@ class Student
         id = iid;
     }
 
-    class School
-    {
-        public string name;
-        public int number_of_classes;
-        private int school_id;
 
-        public int School_Id()
-        {
-            return school_id;
-        }
-        public void School_Id(int school_iid)
-        {
-            school_id = school_iid;
-        }
-    }
 }
