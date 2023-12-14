@@ -1,0 +1,10 @@
+
+*.sln
+*.vsidx
+*.csproj
+*.json
+*.props
+*.targets
+*.cs
+*.cache
+*.editorconfig
