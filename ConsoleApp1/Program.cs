@@ -15,4 +15,25 @@ class Student
     { 
         return id;
     }
+    public void Id(int iid)
+    {
+        id = iid;
+    }
+
+    class Class
+    {
+        public int grade;
+        public string letter;
+        private int class_id;
+        private List<Student> members = new List<Student>();
+
+        public int Class_Id()
+        {
+            return class_id;
+        }
+        public void Class_Id(int class_iid)
+        {
+            class_id = class_iid;
+        }
+    }
 }
