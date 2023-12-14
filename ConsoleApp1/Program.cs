@@ -20,20 +20,19 @@ class Student
         id = iid;
     }
 
-    class Class
+    class School
     {
-        public int grade;
-        public string letter;
-        private int class_id;
-        private List<Student> members = new List<Student>();
+        public string name;
+        public int number_of_classes;
+        private int school_id;
 
-        public int Class_Id()
+        public int School_Id()
         {
-            return class_id;
+            return school_id;
         }
-        public void Class_Id(int class_iid)
+        public void School_Id(int school_iid)
         {
-            class_id = class_iid;
+            school_id = school_iid;
         }
     }
 }
